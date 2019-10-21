@@ -1,10 +1,10 @@
 name:                haskell-json-miner
 version:             0.1.0.0
-github:              "githubuser/haskell-json-miner"
+github:              "acidjunk/haskell-json-miner"
 license:             BSD3
-author:              "Author name here"
-maintainer:          "example@example.com"
-copyright:           "2019 Author name here"
+author:              "Rene Dohmen"
+maintainer:          "acidjunk@gmail.com"
+copyright:           "2019 Formatics"
 
 extra-source-files:
 - README.md
@@ -21,6 +21,8 @@ description:         Please see the README on GitHub at <https://github.com/gith
 
 dependencies:
 - base >= 4.7 && < 5
+- aeson # Json handling
+- text  # Utf8 Text handling and stuff
 
 library:
   source-dirs: src
